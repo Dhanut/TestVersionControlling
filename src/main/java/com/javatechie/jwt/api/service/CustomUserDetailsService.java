@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class CustomUserDetailsService implements UserDetailsService {
     @Autowired
     private UserRepository repository;
-
+    /* Add second commit  */
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = repository.findByUserName(username);

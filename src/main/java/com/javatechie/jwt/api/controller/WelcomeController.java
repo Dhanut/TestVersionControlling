@@ -22,7 +22,7 @@ public class WelcomeController {
     public String welcome() {
         return "Welcome to javatechie !!";
     }
-    /* Add comment for the methods */
+    /* Add comment for the methodss */
     @PostMapping("/authenticate")
     public String generateToken(@RequestBody AuthRequest authRequest) throws Exception {
         try {
